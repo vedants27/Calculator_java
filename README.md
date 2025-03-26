@@ -51,4 +51,22 @@ The program is divided into three separate files:
 
 ## How to Run the Program
 - 1.Clone the repository:
-    - git clone <
+    - git clone https://github.com/vedants27/Calculator_java
+    - cd Calcualtor_java
+ 
+- 2.Complie java files
+    - javac Main.java
+
+- Run java file
+    - java Main
+
+
+## Sample Menu Execution
+![image](https://github.com/user-attachments/assets/2fa916bb-723e-4756-912e-52d412516719)
+
+
+##  Coding Guidelines Followed
+  - Code Structure: Divided into multiple classes to follow Object-Oriented Programming principles.
+  - Modularization: Separated user input and calculator logic into individual classes for clean code architecture.
+  - Comments: Added comments for better readability.
+  - Multiple Commits: The repository contains multiple commits, with each method and file added in separate commits.
