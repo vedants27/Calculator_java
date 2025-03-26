@@ -73,21 +73,7 @@ class Main {
             default:
                System.out.println("Invalid choice.");
          }
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      System.out.println();     
       
       }
 
