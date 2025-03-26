@@ -34,6 +34,13 @@ class Calculator {
         }
         return sum;
     }
+        // Mean of elements in an array
+    public double meanArray(int[] array) {
+        int sum = sumArray(array);
+        return (double) sum / array.length;
+    }
+}
+
 
 
 
