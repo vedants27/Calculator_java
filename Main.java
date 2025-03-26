@@ -58,6 +58,21 @@ class Main {
                int var6 = var3.nextInt();
                System.out.println("Fibonacci of " + var6 + ": " + var1.fibonacci(var6));
                break;
+               case 6:
+               var5 = var2.getArray();
+               var10000 = System.out;
+               var7 = var1.sumArray(var5);
+               var10000.println("Sum of Array: " + var7);
+               break;
+            case 7:
+               var5 = var2.getArray();
+               var10000 = System.out;
+               double var10001 = var1.meanArray(var5);
+               var10000.println("Mean of Array: " + var10001);
+               break;
+            default:
+               System.out.println("Invalid choice.");
+         }
       
       
       
