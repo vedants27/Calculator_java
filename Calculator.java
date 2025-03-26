@@ -24,7 +24,6 @@ class Calculator {
     public int fibonacci(int n) {
         if (n <= 1) return n;
         return fibonacci(n - 1) + fibonacci(n - 2);
-       }
     }
        // Sum of elements in an array
     public int sumArray(int[] array) {
@@ -39,12 +38,5 @@ class Calculator {
         int sum = sumArray(array);
         return (double) sum / array.length;
     }
-}
-
-
-
-
-
-
 }
 
