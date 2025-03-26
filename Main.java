@@ -53,6 +53,11 @@ class Main {
                var7 = var1.divide(var5);
                var10000.println("Quotient: " + var7);
                break;
+               case 5:
+               System.out.println("Enter a number for Fibonacci sequence:");
+               int var6 = var3.nextInt();
+               System.out.println("Fibonacci of " + var6 + ": " + var1.fibonacci(var6));
+               break;
       
       
       
